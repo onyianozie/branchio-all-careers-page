@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--================= FONT STYLE ================-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!--================= STYLE CSS ================-->
+
+    <style>
+        html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+        .clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+        html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+        *, *:before, *:after {box-sizing: inherit}
+
+        .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+                
+        
+        /*================================ FONT IMPORT ==============================*/
+
+        
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+
+        /*================================ ROOT AND MAIN TAGS ==============================*/
+
+        :root{
+        
+            --font-weight: bold;
+            --primary-color: #0074DF;
+            --subtitle: #4c5478;
+            --font-color: #fff;
+            --Tag-border: solid 1px #dddfe9;
+            --BG1:#f5f6fa;
+            --BG2: #4c5478;
+
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            font-family: 'Raleway';
+            font-size: 20px;
+        }
+
+        body{
+            width: 100%;
+            height: auto;
+            display:flex;
+            justify-content: center;
+        }
+
+        h1, h2, h3{
+            line-height: 1.5;
+        }
+
+        h3{
+            font-size: 45px;
+            
+        }
+
+        h4{
+            color:#0074DF;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        p{
+            font-size: 18px;
+        }
+
+        section{
+            width: 100%;
+            padding: 100px 0;
+            display: flex;
+            justify-content:center;
+        }
+
+        button{
+            background-color: var(--primary-color);
+            color: var(--font-color);
+            padding: 16px 30px;
+            border: none;
+            border-radius:50px;
+            cursor: pointer;
+        }
+
+        a{
+            text-decoration: none;
+            color: var(--font-color)
+        }
+
+        label{
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+
+        /*================================ CLASSES ==============================*/
+        
+        
+        .container {
+            max-width: 1240px;
+        }
+
+        /* flexing filter and dropdown menu */
+
+        .flex-parent{
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dropdown{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 84px 0;
+            border-bottom: rgb(160, 160, 160) 0.80px solid;
+        }
+
+        .list{
+            padding: 10px;
+            width: 28%;
+            border-radius: 10px;
+        }
+
+        /* list of jobs section as seen in script concatenation */
+        
+        .job-cont{ 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .jobList{
+            width: 100%;
+        }
+
+        .job{
+            display:flex;
+            justify-content: space-between;
+            align-content: center;
+            text-decoration: none;
+            padding: 50px 0;
+            border-bottom: rgb(160, 160, 160) 0.80px solid;
+        }
+
+        .sub-heading{
+            display: flex;
+        }
+
+        .department, .location{
+            color: var(--subtitle)
+        }
+
+
+        /*================================ MEDIA SCREENS FOR MOBILE ==============================*/
+
+
+        @media screen and (max-width: 750px){
+            .dropdown{
+                flex-direction: column;
+                align-items:flex-start;
+            }
+
+            .list{
+                width: 100%;
+                margin-top: 24px;
+            }
+
+            h4{
+
+                font-size: 18px;
+            }
+
+            .sub-heading p{
+                font-size: 16px;
+            }
+        }
+
+    </style>
+
+    <title>Branch Open Roles</title>
+</head>
+<body>
+    
+    <section class="job-page container">
+        <form class="flex-parent">
+            
+            <h3>All open roles</h3>
+
+            <!--================= DROPDOWN MENUS ================-->
+
+            <div class="dropdown">
+                <label class="filter" id="fitler">Filter by:</label>
+                 
+                <select onchange="onChangeDepartment(event)" name="Department" id="department" class="list"></select>
+
+                <select onchange="onChangeRegion(event)" name="Region" id="region" class="list"></select>
+
+                <select onchange="onChangeLocation(event)" name="location" id="location" class="list"></select>
+            </div>
+            
+
+            <!--================= JOB LISTINGS ================-->
+            <div class="jobList" id="jobList">
+            
+                
+            </div>
+        </form>
+    </section>
+
+    <!--================= SCRIPT FUNCATIONALITY ================-->
+    <script>
+
+        /*================================ VARIABLES ==============================*/
+
+        let arrJobs = [];
+        let arrDept = [];
+        let objRegion = {};
+        let objLocation = {};
+        function init() {
+            fetchJobs();
+        }
+
+
+        /*================================ FETCH JOBS FROM API ==============================*/
+
+
+        function fetchJobs() {
+            fetch('https://boards-api.greenhouse.io/v1/boards/branchmetrics/jobs')
+            .then(function(response){
+                return response.json(); 
+            })
+            .then(function(jsonResult){
+                console.log('Working!', jsonResult);
+                arrJobs = jsonResult.jobs;
+
+                //* Loop through the array of jobs
+
+                arrJobs.forEach(job => {
+                    if(job.location && job.location.name) {
+                        let arrLoc = job.location.name.split(",");
+                        if(arrLoc.length >= 3) {
+                            let country = arrLoc[arrLoc.length -1].trim();
+                            let loc = "";
+                            for(let i = 0; i < arrLoc.length - 1; i++) {
+                                loc += ", " + arrLoc[i];
+                            }
+                            loc = loc.substring(2);
+                            if(!objRegion[country]) {
+                                objRegion[country] = {label: country,value: country,loc: []};
+                            }
+                            if(!objLocation[loc]) {
+                                objLocation[loc] = {label: loc,value: loc};
+                                objRegion[country].loc.push({label: loc,value: loc});
+                            }
+                            job.region = country;
+                            job.loc = loc;
+                        }
+                    
+                    }
+                });
+                fetchDepartment();
+                
+            });
+        }
+
+        /*================================ FETCH DEPARTMENTS FROM API ==============================*/
+
+        function fetchDepartment() { 
+            fetch('https://boards-api.greenhouse.io/v1/boards/branchmetrics/departments')
+                .then(function(response){
+                    return response.json(); 
+                })
+                .then(function(jsonRes){
+                    console.log('Working!', jsonRes);
+                    arrDept = jsonRes.departments;
+
+                    //* Loop through the array of departments
+
+                    jsonRes.departments.forEach(dept => {
+                        if(dept.jobs && dept.jobs.length) {
+                            let arrJobID = [];
+                            dept.jobs.forEach(job => {
+                                arrJobID.push(job.internal_job_id);
+                            });
+                            arrJobs.forEach(job => {
+                                if(arrJobID.includes(job.internal_job_id)) {
+                                    job.dept = dept; 
+                                }
+                            });
+                        }
+                    });
+                    populateDeptDropdown();
+                    populateRegionDropdown();
+                    populateJobs();
+                });
+        }
+
+        /*================================ FILTER DROPDOWN ==============================*/
+
+        function populateDeptDropdown() {
+            let department = document.getElementById("department");
+            department.innerHTML = "";
+            let option = document.createElement("option");
+            option.text = "All Departments";
+            option.value = -1;
+            department.add(option);
+            arrDept.forEach(dept => {
+                option = document.createElement("option");
+                option.text = dept.name;
+                option.value = dept.id;
+                department.add(option);
+            });
+        }
+
+        function populateRegionDropdown() {
+            let region = document.getElementById("region");
+            region.innerHTML = "";
+            let option = document.createElement("option");
+            option.text = "All Regions";
+            option.value = "-1";
+            region.add(option);
+            Object.keys(objRegion) .forEach(regKey => {
+                let reg = objRegion[regKey];
+                option = document.createElement("option");
+                option.text = reg.label;
+                option.value = reg.value;
+                region.add(option);
+            });
+        }
+
+        /*================================ ON CHANGE EVENTS ==============================*/
+
+        function onChangeDepartment(event) {
+            populateJobs();
+        }
+
+        function onChangeRegion(event) {
+            let region = document.getElementById("region");
+            let reg = region.value;
+            if(objRegion[reg] && objRegion[reg].loc && objRegion[reg].loc.length) {
+                var arrLoc = objRegion[reg].loc;
+                populateLocationDropdown(arrLoc);
+            }
+            else  {
+                populateLocationDropdown([]);
+            }
+            populateJobs();
+        }
+
+        function populateLocationDropdown(arrLoc) {
+            let location = document.getElementById("location");
+            location.innerHTML = "";
+            let option = document.createElement("option");
+            option.text = "All Locations";
+            option.value = "-1";
+            location.add(option);
+            arrLoc .forEach(loc => {
+                option = document.createElement("option");
+                option.text = loc.label;
+                option.value = loc.value;
+                location.add(option);
+            });
+        }
+
+        function onChangeLocation(event) {
+            populateJobs();
+        }
+
+        function populateJobs() {
+            let department = document.getElementById("department");
+            let deptID = parseInt(department.value,10);
+            let region = document.getElementById("region");
+            let reg = region.value;
+            let location = document.getElementById("location");
+            let loc = location.value;
+            let arrData = [...arrJobs];
+            if(deptID > -1) {
+                arrData = arrData.filter(job => {
+                    return (job?.dept?.id === deptID);
+                });
+            }
+            if(reg != "-1") {
+                arrData = arrData.filter(job => {
+                    return (job?.region == reg);
+                });
+            }
+            if(loc != "" && loc != "-1") {
+                arrData = arrData.filter(job => {
+                    return (job?.loc == loc);
+                });
+            }
+            var jobList = document.getElementById("jobList");
+            jobList.innerHTML = "";
+            arrData.forEach(job => {
+                jobList.innerHTML += renderJobItem(job);
+            });
+        }
+
+        function renderJobItem(job) {
+            var html = `<div href="" class="job" id="job">
+            <div class="job-cont" id="job-cont">
+            <h4 id="title">${job.title}</h4>
+            <div class="sub-heading">
+                <p class="department" id="department">${job?.dept?.name},</p>
+                <pre> </pre>
+                <p class="location" id="location">${job?.location?.name}</p>
+            </div>  
+            </div>
+            <button class="Apply" id="primaryBtn"><a href="${job.absolute_url
+            }">Apply Now</a></button>
+        </div>`;
+        return html;
+        }
+
+        init();
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

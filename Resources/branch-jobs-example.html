@@ -1,0 +1,248 @@
+<section class="jobs">
+  <div class="bds-container bds-pad-t-sm bds-pad-b-xxl">
+    <h4 class="heading bds-txt-light bds-txt-center bds-pad-b-xl">All open positions at Branch</h4>
+
+    <!-- filters -->
+    <div class="filters bds-inline-block bds-width-100 bds-pad-b-md bds-txt-center">
+      <!-- department-->
+      <select class="department-list" id="department-list">
+        <option value="all" data-filter="clear">Department</option>
+      </select>
+
+      <!-- location -->
+      <select class="office-list" id="location-list">
+        <option value="all" data-filter="clear">Location</option>
+      </select>
+    </div>
+
+    <!-- job listings -->
+    <div id="job-list" class="job-list">
+
+      <div class="job-header bds-row bds-pad-all-xs">
+        <div class="bds-col-8 bds-col-lg-7">
+          Position
+        </div>
+        <div class="bds-col-4 bds-col-lg-5 bds-pad-l-sm bds-pad-lg-l-0">
+          Location
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="no-jobs" class="no-jobs bds-hide bds-txt-center bds-pad-y-lg bds-txt-20 bds-txt-grey-45">
+      Looks like there are no positions available at the moment-- change your filters or check back again for new openings. 
+    </div>
+  </div>
+</section>
+
+<script>
+    (function(){
+      const BASE_URL = 'https://boards-api.greenhouse.io/v1/boards/branchmetrics/';
+      const JOB_DETAILS = 'jobs?content=true';
+  
+      function toSlug (str) {
+        str = str.replace(/^\s+|\s+$/g, ''); // trim
+        str = str.toLowerCase();
+  
+        // remove accents, swap ñ for n, etc
+        let from = "àáäâèéëêìíïîòóöôùúüûñç·/_,:;";
+        let to   = "aaaaeeeeiiiioooouuuunc------";
+        for (let i=0, l=from.length ; i<l ; i++) {
+            str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+        }
+  
+        str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+            .replace(/\s+/g, '-') // collapse whitespace and replace by -
+            .replace(/-+/g, '-'); // collapse dashes
+  
+        return str;
+      }
+  
+      function getJobData(url) {
+        return new Promise(function(resolve, reject) {
+          let req = new XMLHttpRequest();
+          req.open('GET', url);
+  
+          req.onload = function() {
+            if (req.status == 200) {
+              resolve(req.response);
+            }
+            else {
+              reject(Error(req.statusText));
+            }
+          };
+          // Handle network errors
+          req.onerror = function() {
+            reject(Error("Network Error"));
+          };
+          req.send();
+        });
+      }
+  
+      function getJSON(url) {
+        return getJobData(url).then(JSON.parse);
+      }
+  
+      let filterArray = [];
+      function populateFilters(dimension, data){
+  
+        let filterId = dimension == 'department' 
+        ? ( (data.id == 0) ? 'none' : data.id )
+        : ( dimension == 'location' ? toSlug(data) : 'none' )
+  
+        filterArray.push(filterId);
+  
+        let filter = document.createElement("option");
+        filter.setAttribute('value', data.name ? data.name : data);
+        filter.setAttribute('data-filter', filterId);
+        filter.innerHTML = data.name ? data.name : data;
+        return filter;
+      }
+  
+      function createJobItems(job){
+        let link = document.createElement("a");
+        link.setAttribute('class', 'job');
+        link.href = job.absolute_url;
+  
+        let jobItem = document.createElement("div");
+        jobItem.setAttribute('class', 'bds-row job-item bds-pad-all-sm bds-marg-b-xs');
+        // jobItem.setAttribute('data-filter', toSlug(job.location.name)+','+job.departments[0].id);
+        jobItem.setAttribute('data-filter', toSlug(job.location.name)+','+toSlug(job.metadata[0].value));
+  
+        let jobTitle = document.createElement("div");
+        jobTitle.setAttribute('class', 'title bds-col-8 bds-col-lg-7')
+        jobTitle.innerHTML = job.title;
+  
+        let jobLocation = document.createElement("div");
+        jobLocation.setAttribute('class', 'location bds-col-4 bds-col-lg-4 bds-pad-l-sm bds-pad-lg-l-0 ');
+        jobLocation.innerHTML = job.location.name;
+  
+        let jobViewLink = document.createElement("div");
+        jobViewLink.setAttribute('class', 'view bds-col-1 bds-show-at-lg');
+        jobViewLink.innerHTML = 'View <span class="bds-arrow right"></span>';
+  
+        jobItem.appendChild(jobTitle);
+        jobItem.appendChild(jobLocation);
+        jobItem.appendChild(jobViewLink);
+        link.appendChild(jobItem);
+  
+        return link;
+      }
+  
+      function autoFilter(){
+        const event = new Event('change');
+        let pathname = window.location.href.substr(window.location.href.indexOf("?team=") + 1).split('=')[1] || '';
+        if(pathname){
+          if (pathname.indexOf('%20'))
+            pathname = decodeURIComponent(pathname.replace(/\+/g,  " "));
+  
+          document.getElementById('department-list').value = pathname;
+          if(document.getElementById('department-list').value)
+            document.getElementById('department-list').dispatchEvent(event);
+          else {
+            document.querySelectorAll('.job-item').forEach((job) => {job.classList.add("bds-hide")})
+            document.getElementById('no-jobs').classList.remove("bds-hide")
+          }
+        }
+      }
+  
+      let departmentArray =  [], locationArray = [];
+  
+      function process(data) {
+        locationArray.sort((a, b) => (a.name > b.name) ? 1 : -1);
+
+        locationArray = locationArray
+          .map(location => location.name)
+          .reduce((acc, val) => {
+            if(acc.indexOf(val)<0)
+              acc.push(val)
+            return acc
+          }, []).forEach((loc) => {
+            document.getElementById('location-list').appendChild(populateFilters('location', loc));
+          })
+  
+        departmentArray.sort((a, b) => (a.id > b.id) ? 1 : -1);
+        
+        departmentArray.filter((dep, index, self) =>
+          index === self.findIndex((d) => (d.id === dep.id))
+        ).forEach((dep) => {
+          document.getElementById('department-list').appendChild(populateFilters('department', dep));
+        });
+  
+        data.forEach((job) => {
+          if (job.metadata[0].value && job.metadata[1].value) document.getElementById('job-list').appendChild(createJobItems(job));
+        });
+  
+        // auto select Engineering on /careers/engineering/
+        if (window.location.href.indexOf("/careers/engineering") > -1) {
+          document.getElementById('department-list').value = 'Engineering';
+          document.getElementById('department-list').dispatchEvent(new Event('change'));
+        }
+        
+        autoFilter();
+      }
+  
+      getJSON(BASE_URL+JOB_DETAILS)
+      .then((data)=>{
+        return data.jobs.reduce((accumulator, currentValue) => { 
+          let { location, title, departments, offices, absolute_url, metadata } = currentValue
+  
+  
+  
+          if (metadata[0].value) {  
+              departmentArray.push({
+                  id: toSlug(metadata[0].value),
+                  name: metadata[0].value
+              });      
+          }        
+           
+          // department is an array of only one entry. so grab that entry
+          // departmentArray.push(departments[0]);
+          
+          /* this is a weak point. It was conveyed that with the current greenhouse setup
+              instead of using the "office" field, we want to use the "location", which 
+              is a string value with no associated properties. Which is why we are calling
+              toSlug() on it in multiple areas */
+          locationArray.push(location); 
+  
+          accumulator.push({ location, title, departments, offices, absolute_url, metadata });
+          return accumulator;
+        }, [])
+      }).then((data) => process(data))
+      .catch((err) => console.log("something went wrong fetching data", err));
+  
+  
+      // filter work
+      let departmentFilter = locationFilter = '';
+      function filter() {
+        let selected = this.options[this.selectedIndex];
+        let parentClass = this.getAttribute('id');
+        let filter = (selected.getAttribute('data-filter') == 'clear') ? '' : selected.getAttribute('data-filter');
+  
+        if(parentClass == 'department-list')
+          departmentFilter = filter
+        if(parentClass == 'location-list')
+          locationFilter = filter
+  
+        document.querySelectorAll('.job-item').forEach((job) => {
+          let taggedDimensions = job.getAttribute('data-filter');
+          if(taggedDimensions.includes(departmentFilter) && taggedDimensions.includes(locationFilter))
+            job.classList.remove("bds-hide")
+          else
+            job.classList.add("bds-hide")
+        });
+  
+        if (document.querySelectorAll(".job-item.bds-hide").length === document.querySelectorAll(".job-item").length)
+          document.getElementById('no-jobs').classList.remove("bds-hide")
+        else
+          document.getElementById('no-jobs').classList.add("bds-hide")
+      }
+  
+      document.querySelectorAll('.filters select').forEach((selector) => {
+        selector.addEventListener('change', filter);
+      });
+  
+    })()
+  
+  </script>

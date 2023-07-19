@@ -1,0 +1,3200 @@
+{
+    "departments": [
+        {
+            "id": 84364,
+            "name": "All Team Permissions",
+            "parent_id": null,
+            "child_ids": [
+                68061,
+                82892,
+                68058,
+                68062,
+                68060,
+                68066,
+                68059,
+                84677,
+                83131,
+                68064,
+                68063,
+                68065,
+                68069,
+                68068,
+                68072,
+                68070,
+                68071,
+                68067
+            ],
+            "jobs": []
+        },
+        {
+            "id": 68061,
+            "name": "BD & Partnerships",
+            "parent_id": 84364,
+            "child_ids": [],
+            "jobs": [
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4691948",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2409141,
+                    "location": {
+                        "name": "Bengaluru, Karnataka, India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Biz Dev & Partnerships",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P2",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.FSDN.P2",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4691948,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "939",
+                    "title": "Advertising Account Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4715185",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2417854,
+                    "location": {
+                        "name": "London, Greater London, England, United Kingdom"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Biz Dev & Partnerships",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "EMEA",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SP.BDMF.M4",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/195G7dVHZ3O1RnLnsLKvpqPG_QBL2Jd9TCCAQ-jm6ijI/edit",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4715185,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "943",
+                    "title": "Business Development Director"
+                }
+            ]
+        },
+        {
+            "id": 68069,
+            "name": "Business Ops",
+            "parent_id": 68066,
+            "child_ids": [],
+            "jobs": []
+        },
+        {
+            "id": 82892,
+            "name": "CONTRACTORS",
+            "parent_id": 84364,
+            "child_ids": [],
+            "jobs": [
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4417563",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2317596,
+                    "location": {
+                        "name": "Bengaluru, Karnataka, India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": null,
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4417563,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "Contractor",
+                    "title": "(CONTRACT) A/R Analyst"
+                }
+            ]
+        },
+        {
+            "id": 68064,
+            "name": "Customer Success",
+            "parent_id": 68062,
+            "child_ids": [],
+            "jobs": [
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4691656",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2409018,
+                    "location": {
+                        "name": "Jakarta, Jakarta, Indonesia"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Customer Success",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.CRCS.P3",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4691656,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "937",
+                    "title": "Enterprise Customer Success Manager"
+                }
+            ]
+        },
+        {
+            "id": 68058,
+            "name": "Engineering",
+            "parent_id": 84364,
+            "child_ids": [],
+            "jobs": [
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4731493",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2423439,
+                    "location": {
+                        "name": "Shenzhen Shi, Guangdong, China"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Engineering",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P2",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "CS.FSTS.P2",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1jbSQvlAvPi8pmROQSTcpgNgU_m6wQ52Wc0LXDKHSRV4/edit",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4731493,
+                    "updated_at": "2022-12-06T10:27:45-05:00",
+                    "requisition_id": "952",
+                    "title": "Android Integrations Engineer"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4539073",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2319690,
+                    "location": {
+                        "name": "Palo Alto, California, United States"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Engineering",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4539073,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "813",
+                    "title": "Senior Software Engineer"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4539076",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2319690,
+                    "location": {
+                        "name": "Seattle, Washington, United States"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Engineering",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4539076,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "813",
+                    "title": "Senior Software Engineer"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4539072",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2319690,
+                    "location": {
+                        "name": "Remote - CA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Engineering",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4539072,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "813",
+                    "title": "Staff Software Engineer"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4425274",
+                    "data_compliance": [],
+                    "internal_job_id": 2319690,
+                    "location": {
+                        "name": "Palo Alto, California, United States"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Engineering",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4425274,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "813",
+                    "title": "Staff Software Engineer"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4425278",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2319690,
+                    "location": {
+                        "name": "Seattle, Washington, United States"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Engineering",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4425278,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "813",
+                    "title": "Staff Software Engineer"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4737862",
+                    "data_compliance": [],
+                    "internal_job_id": 2425797,
+                    "location": {
+                        "name": "Seattle, Washington, United States"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Engineering",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P5",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "EN.SODE.P5",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1mbgjTsn_HcyN4af03jD-GM-pQ1xgwUOl0AibPthd2NY/edit#",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4737862,
+                    "updated_at": "2022-12-06T14:52:33-05:00",
+                    "requisition_id": "955",
+                    "title": "Staff Software Engineer, Data Platform and Products"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4738942",
+                    "data_compliance": [],
+                    "internal_job_id": 2425797,
+                    "location": {
+                        "name": "Palo Alto, California, United States"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Engineering",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P5",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "EN.SODE.P5",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1mbgjTsn_HcyN4af03jD-GM-pQ1xgwUOl0AibPthd2NY/edit#",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4738942,
+                    "updated_at": "2022-12-07T02:03:19-05:00",
+                    "requisition_id": "955",
+                    "title": "Staff Software Engineer, Data Platform and Products"
+                }
+            ]
+        },
+        {
+            "id": 84363,
+            "name": "Executive",
+            "parent_id": 84365,
+            "child_ids": [],
+            "jobs": []
+        },
+        {
+            "id": 68068,
+            "name": "Finance",
+            "parent_id": 68066,
+            "child_ids": [],
+            "jobs": [
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4641993",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2311166,
+                    "location": {
+                        "name": "Remote - OR"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4641993,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "807",
+                    "title": "FP&A Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4399260",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2311166,
+                    "location": {
+                        "name": "Remote - WA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4399260,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "807",
+                    "title": "FP&A Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4641994",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2311166,
+                    "location": {
+                        "name": "Remote - UT"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4641994,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "807",
+                    "title": "FP&A Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4399259",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2311166,
+                    "location": {
+                        "name": "Remote - TX"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4399259,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "807",
+                    "title": "FP&A Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4398258",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2311166,
+                    "location": {
+                        "name": "Remote - CA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4398258,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "807",
+                    "title": "FP&A Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4662326",
+                    "data_compliance": [],
+                    "internal_job_id": 2399447,
+                    "location": {
+                        "name": "Remote - CA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        }
+                    ],
+                    "id": 4662326,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "915",
+                    "title": "Internal Audit Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4662881",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2399447,
+                    "location": {
+                        "name": "Remote - IL"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4662881,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "915",
+                    "title": "Internal Audit Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4665988",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2399447,
+                    "location": {
+                        "name": "Remote - NY"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4665988,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "915",
+                    "title": "Internal Audit Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4665848",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2399447,
+                    "location": {
+                        "name": "Remote - WA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4665848,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "915",
+                    "title": "Internal Audit Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4662877",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2399447,
+                    "location": {
+                        "name": "Remote - TX"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4662877,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "915",
+                    "title": "Internal Audit Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4665852",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2399447,
+                    "location": {
+                        "name": "Remote - WA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4665852,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "915",
+                    "title": "Internal Audit Senior Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4662871",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2399447,
+                    "location": {
+                        "name": "Remote - CA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4662871,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "915",
+                    "title": "Internal Audit Senior Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4662879",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2399447,
+                    "location": {
+                        "name": "Remote - TX"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4662879,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "915",
+                    "title": "Internal Audit Senior Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4662883",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2399447,
+                    "location": {
+                        "name": "Remote - IL"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4662883,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "915",
+                    "title": "Internal Audit Senior Manager"
+                }
+            ]
+        },
+        {
+            "id": 68062,
+            "name": "Go-To-Market",
+            "parent_id": 84364,
+            "child_ids": [
+                68064,
+                68063,
+                68065
+            ],
+            "jobs": []
+        },
+        {
+            "id": 68072,
+            "name": "IT",
+            "parent_id": 68066,
+            "child_ids": [],
+            "jobs": [
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4684747",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2407047,
+                    "location": {
+                        "name": "Bengaluru, Karnataka, India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "IT",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P2",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4684747,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "931",
+                    "title": "Systems Engineer, India- APAC"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4684904",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2407120,
+                    "location": {
+                        "name": "London, Greater London, England, United Kingdom"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "IT",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "EMEA",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P2",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4684904,
+                    "updated_at": "2022-12-06T08:16:02-05:00",
+                    "requisition_id": "932",
+                    "title": "Systems Engineer - IT"
+                }
+            ]
+        },
+        {
+            "id": 68070,
+            "name": "Legal",
+            "parent_id": 68066,
+            "child_ids": [],
+            "jobs": [
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4504595",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2348186,
+                    "location": {
+                        "name": "London, Greater London, England, United Kingdom"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Legal",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4504595,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "836",
+                    "title": "Commercial Counsel"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4504717",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2348186,
+                    "location": {
+                        "name": "London, Greater London, England, United Kingdom"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Legal",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4504717,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "836",
+                    "title": "Commercial & Privacy Counsel"
+                }
+            ]
+        },
+        {
+            "id": 84365,
+            "name": "Limited Permissions",
+            "parent_id": null,
+            "child_ids": [
+                84363
+            ],
+            "jobs": []
+        },
+        {
+            "id": 68060,
+            "name": "Marketing",
+            "parent_id": 84364,
+            "child_ids": [],
+            "jobs": []
+        },
+        {
+            "id": 68071,
+            "name": "Office Ops",
+            "parent_id": 68066,
+            "child_ids": [],
+            "jobs": []
+        },
+        {
+            "id": 68066,
+            "name": "Operations",
+            "parent_id": 84364,
+            "child_ids": [
+                68069,
+                68068,
+                68072,
+                68070,
+                68071,
+                68067
+            ],
+            "jobs": []
+        },
+        {
+            "id": 68067,
+            "name": "People",
+            "parent_id": 68066,
+            "child_ids": [],
+            "jobs": [
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4450110",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2329350,
+                    "location": {
+                        "name": "Palo Alto, California, United States"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "People & Recruiting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4450110,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "825",
+                    "title": "Senior People Partner, US"
+                }
+            ]
+        },
+        {
+            "id": 68059,
+            "name": "Product",
+            "parent_id": 84364,
+            "child_ids": [],
+            "jobs": [
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4662888",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2399609,
+                    "location": {
+                        "name": "London, Greater London, England, United Kingdom"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Product",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "EMEA",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4662888,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "917",
+                    "title": "Partner Product Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4670274",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2378623,
+                    "location": {
+                        "name": "Remote - WA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Product",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "M5",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4670274,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "877",
+                    "title": "Product Leadership, Ads"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4601426",
+                    "data_compliance": [],
+                    "internal_job_id": 2378623,
+                    "location": {
+                        "name": "Remote - CA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "M5",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Product",
+                            "value_type": "single_select"
+                        }
+                    ],
+                    "id": 4601426,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "877",
+                    "title": "Product Leadership, Ads"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4670280",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2378623,
+                    "location": {
+                        "name": "New York, NY, United States"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Product",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "M5",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4670280,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "877",
+                    "title": "Product Leadership, Ads"
+                }
+            ]
+        },
+        {
+            "id": 68063,
+            "name": "Sales",
+            "parent_id": 68062,
+            "child_ids": [],
+            "jobs": [
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4652829",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2395892,
+                    "location": {
+                        "name": "Remote - India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P1",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4652829,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "908",
+                    "title": "Account Executive, Advertising Products"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4691662",
+                    "data_compliance": [],
+                    "internal_job_id": 2409022,
+                    "location": {
+                        "name": "Bengaluru, Karnataka, India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.FSDN.P3",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4691662,
+                    "updated_at": "2022-12-06T23:24:54-05:00",
+                    "requisition_id": "938",
+                    "title": "Commercial Account Executive, India"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4617116",
+                    "data_compliance": [],
+                    "internal_job_id": 2293626,
+                    "location": {
+                        "name": "Remote - TX"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - Central",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.FSDN.P4 ",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1Q7RUyH3xZqrQYvXMxVXCiy6j6RPaAFo6MlAiGULIxQQ/edit",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4617116,
+                    "updated_at": "2022-12-06T19:17:25-05:00",
+                    "requisition_id": "794",
+                    "title": "Enterprise Account Executive"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4579560",
+                    "data_compliance": [],
+                    "internal_job_id": 2327615,
+                    "location": {
+                        "name": "Remote - CA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.FSDN.P4 ",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1Q7RUyH3xZqrQYvXMxVXCiy6j6RPaAFo6MlAiGULIxQQ/edit",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4579560,
+                    "updated_at": "2022-12-06T19:15:44-05:00",
+                    "requisition_id": "819",
+                    "title": "Enterprise Account Executive"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4445083",
+                    "data_compliance": [],
+                    "internal_job_id": 2327615,
+                    "location": {
+                        "name": "Remote - OR"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.FSDN.P4 ",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1Q7RUyH3xZqrQYvXMxVXCiy6j6RPaAFo6MlAiGULIxQQ/edit",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4445083,
+                    "updated_at": "2022-12-06T19:15:44-05:00",
+                    "requisition_id": "819",
+                    "title": "Enterprise Account Executive"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4445051",
+                    "data_compliance": [],
+                    "internal_job_id": 2327615,
+                    "location": {
+                        "name": "Remote - WA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.FSDN.P4 ",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1Q7RUyH3xZqrQYvXMxVXCiy6j6RPaAFo6MlAiGULIxQQ/edit",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4445051,
+                    "updated_at": "2022-12-06T19:15:44-05:00",
+                    "requisition_id": "819",
+                    "title": "Enterprise Account Executive"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4343084",
+                    "data_compliance": [],
+                    "internal_job_id": 2293626,
+                    "location": {
+                        "name": "Remote - IL"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - Central",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.FSDN.P4 ",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1Q7RUyH3xZqrQYvXMxVXCiy6j6RPaAFo6MlAiGULIxQQ/edit",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4343084,
+                    "updated_at": "2022-12-06T19:17:25-05:00",
+                    "requisition_id": "794",
+                    "title": "Enterprise Account Executive"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4617110",
+                    "data_compliance": [],
+                    "internal_job_id": 2293626,
+                    "location": {
+                        "name": "Remote - FL"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - Central",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.FSDN.P4 ",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1Q7RUyH3xZqrQYvXMxVXCiy6j6RPaAFo6MlAiGULIxQQ/edit",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4617110,
+                    "updated_at": "2022-12-06T19:17:25-05:00",
+                    "requisition_id": "794",
+                    "title": "Enterprise Account Executive"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4665922",
+                    "data_compliance": [],
+                    "internal_job_id": 2400730,
+                    "location": {
+                        "name": "Remote - Toronto, Canada"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "Canada",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.FSDN.P4",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1Q7RUyH3xZqrQYvXMxVXCiy6j6RPaAFo6MlAiGULIxQQ/edit",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4665922,
+                    "updated_at": "2022-12-06T19:14:20-05:00",
+                    "requisition_id": "922",
+                    "title": "Enterprise Account Executive "
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4665539",
+                    "data_compliance": [],
+                    "internal_job_id": 2399566,
+                    "location": {
+                        "name": "Remote - MA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - East",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.FSDN.P4 ",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1Q7RUyH3xZqrQYvXMxVXCiy6j6RPaAFo6MlAiGULIxQQ/edit",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4665539,
+                    "updated_at": "2022-12-06T19:16:30-05:00",
+                    "requisition_id": "916",
+                    "title": "Enterprise Account Executive "
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4662745",
+                    "data_compliance": [],
+                    "internal_job_id": 2399566,
+                    "location": {
+                        "name": "New York, NY, United States"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - East",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.FSDN.P4 ",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1Q7RUyH3xZqrQYvXMxVXCiy6j6RPaAFo6MlAiGULIxQQ/edit",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4662745,
+                    "updated_at": "2022-12-06T19:16:30-05:00",
+                    "requisition_id": "916",
+                    "title": "Enterprise Account Executive "
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4675566",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2404098,
+                    "location": {
+                        "name": "Bengaluru, Karnataka, India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4675566,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "925",
+                    "title": "Enterprise Account Executive, India-APAC"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4658624",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2398063,
+                    "location": {
+                        "name": "Bengaluru, Karnataka, India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P2",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4658624,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "912",
+                    "title": "Renewals Desk, Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4506319",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2348540,
+                    "location": {
+                        "name": "Bengaluru, Karnataka, India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P1",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4506319,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "838",
+                    "title": "Sales Development Representative"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4663983",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2400007,
+                    "location": {
+                        "name": "Seoul, South Korea"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4663983,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "918",
+                    "title": "Senior Account Executive"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4731910",
+                    "data_compliance": [],
+                    "internal_job_id": 2423639,
+                    "location": {
+                        "name": "London, Greater London, England, United Kingdom"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "EMEA",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.OPSE.P3",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1knZPvIlxxd1X7Z6UtY2x4fI-zT66qjDkib7GSDCAqc4/edit?usp=sharing",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4731910,
+                    "updated_at": "2022-12-06T15:45:07-05:00",
+                    "requisition_id": "953",
+                    "title": "Senior Field Enablement Manager"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4712960",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2416992,
+                    "location": {
+                        "name": "Jakarta, Jakarta, Indonesia"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Technical Services",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "SA.ASRS.P3",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4712960,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "942",
+                    "title": "Senior Sales Engineer"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4733620",
+                    "data_compliance": [],
+                    "internal_job_id": 2424193,
+                    "location": {
+                        "name": "Remote - CA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1Ta_OcF-Y9YKXrJ_z5_MIf3_VwSnyyQIJbIuPxoHRCh8/edit",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "PS.PSTC.P3",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Technical Services",
+                            "value_type": "single_select"
+                        }
+                    ],
+                    "id": 4733620,
+                    "updated_at": "2022-12-08T13:46:32-05:00",
+                    "requisition_id": "954",
+                    "title": "Solutions Integration Engineer"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4489078",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2342873,
+                    "location": {
+                        "name": "Jakarta, Jakarta, Indonesia"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P5",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4489078,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "832",
+                    "title": "Strategic Account Executive"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4574429",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2370179,
+                    "location": {
+                        "name": "Bengaluru, Karnataka, India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P4",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4574429,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "866",
+                    "title": "Strategic Account Executive, India"
+                }
+            ]
+        },
+        {
+            "id": 68065,
+            "name": "Technical GTM",
+            "parent_id": 68062,
+            "child_ids": [],
+            "jobs": [
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4434570",
+                    "data_compliance": [],
+                    "internal_job_id": 2323950,
+                    "location": {
+                        "name": "Seoul, South Korea"
+                    },
+                    "metadata": [
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P2",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Technical Services",
+                            "value_type": "single_select"
+                        }
+                    ],
+                    "id": 4434570,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "814",
+                    "title": "Integration Engineer"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4672400",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2402914,
+                    "location": {
+                        "name": "Bengaluru, Karnataka, India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Technical Services",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4672400,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "923",
+                    "title": "Lead/ Senior Solutions Engineer"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4728704",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2422639,
+                    "location": {
+                        "name": "Bengaluru, Karnataka, India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Finance & Accounting",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "TE.ESEB.P1-6",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": "https://docs.google.com/document/d/1R77SiT_ow3cI__Hb-tOezj0z8Q0TR8kdxwwQTkx92yw/edit#",
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4728704,
+                    "updated_at": "2022-12-01T22:46:50-05:00",
+                    "requisition_id": "947",
+                    "title": "NetSuite Developer & Administrator"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4445398",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2327756,
+                    "location": {
+                        "name": "Remote - CA"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Sales",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P3",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4445398,
+                    "updated_at": "2022-12-05T14:49:24-05:00",
+                    "requisition_id": "823",
+                    "title": "Sales Engineer"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4400839",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2312081,
+                    "location": {
+                        "name": "Bengaluru, Karnataka, India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Technical Services",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": null,
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4400839,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "808",
+                    "title": "Senior Integration Engineer"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4551305",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2363201,
+                    "location": {
+                        "name": "Bengaluru, Karnataka, India"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Technical Services",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "APAC",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P1",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": null,
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4551305,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "854",
+                    "title": "Solutions Consultant"
+                },
+                {
+                    "absolute_url": "https://branch.io/careers/apply/?gh_jid=4694816",
+                    "data_compliance": [
+                        {
+                            "type": "gdpr",
+                            "requires_consent": false,
+                            "retention_period": null
+                        }
+                    ],
+                    "internal_job_id": 2410019,
+                    "location": {
+                        "name": "Palo Alto, California, United States"
+                    },
+                    "metadata": [
+                        {
+                            "id": 9833902,
+                            "name": "Career Site Department Filter",
+                            "value": "Technical Services",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 9835032,
+                            "name": "Career Site Region Filter",
+                            "value": "USA - West",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 10708747,
+                            "name": "Job Level",
+                            "value": "P2",
+                            "value_type": "single_select"
+                        },
+                        {
+                            "id": 12695875,
+                            "name": "RadfordJob Code",
+                            "value": "CS.FSTS.P2",
+                            "value_type": "short_text"
+                        },
+                        {
+                            "id": 12965338,
+                            "name": "Job Intake Form Link",
+                            "value": null,
+                            "value_type": "short_text"
+                        }
+                    ],
+                    "id": 4694816,
+                    "updated_at": "2022-12-01T16:57:23-05:00",
+                    "requisition_id": "940",
+                    "title": "Support Engineer"
+                }
+            ]
+        },
+        {
+            "id": 84677,
+            "name": "University",
+            "parent_id": 84364,
+            "child_ids": [],
+            "jobs": []
+        },
+        {
+            "id": 82368,
+            "name": "ZZZ - DO NOT USE",
+            "parent_id": null,
+            "child_ids": [],
+            "jobs": []
+        },
+        {
+            "id": 83131,
+            "name": "ZZZ - TEMPLATES",
+            "parent_id": 84364,
+            "child_ids": [],
+            "jobs": []
+        },
+        {
+            "id": 0,
+            "name": "No Department",
+            "parent_id": null,
+            "child_ids": [],
+            "jobs": []
+        }
+    ]
+}
